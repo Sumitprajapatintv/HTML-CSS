@@ -1,12 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: sans-serif;
     line-height: 1.4;
     /* position: relative; */
+}
+
+.container {
+    width: 850px;
 }
 
 /* PRODUCT */
@@ -169,3 +174,5 @@ p:first-child {
     background-color: brown;
 
 }
+
+/* floats */
