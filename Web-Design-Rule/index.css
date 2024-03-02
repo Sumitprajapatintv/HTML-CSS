@@ -170,3 +170,14 @@ footer {
   padding: 8px 24px;
   font-size: 12px;
 }
+.features-class {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+}
+.chair-boxx {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
+}
