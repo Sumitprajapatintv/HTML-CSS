@@ -74,6 +74,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 /* FEATURES */
@@ -185,4 +186,5 @@ footer {
 
 .chair {
   box-shadow: 0 20px 30px 5px rgb(0, 0, 0, 0.07);
+  border-radius: 10px;
 }
