@@ -63,6 +63,7 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+  text-shadow: 0 20px 30px rgb(0, 0, 0, 0.07);
 }
 
 .header-text {
@@ -180,4 +181,8 @@ footer {
   stroke: #087f5b;
   width: 24px;
   height: 24px;
+}
+
+.chair {
+  box-shadow: 0 20px 30px 5px rgb(0, 0, 0, 0.07);
 }
