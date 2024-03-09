@@ -21,7 +21,7 @@ body {
   line-height: 1;
 }
 img {
-  width: 200px;
+  height: 200px;
   border-radius: 8px;
   transform: scale(1.5);
   box-shadow: 0 12px 24px rgb(0, 0, 0, 0.5);
@@ -32,11 +32,12 @@ img {
   background-color: #087f5b;
   padding: 32px;
   padding-left: 84px;
-  grid-template-columns: auto repeat(1fr) auto;
+  padding-right: 48px;
   border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 84px;
+  position: relative;
 }
 .testomonial-text {
   font-size: 18px;
@@ -56,4 +57,53 @@ img {
   color: #e6fcf5;
   line-height: 1.1;
   margin-bottom: 4px;
+}
+.btn {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  color: #087f5b;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  box-shadow: 0 12px 24px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.btn-left {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn--right {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  color: #087f5b;
+}
+.dots {
+  left: 50%;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  gap: 12px;
+  align-items: center;
+  transform: translate(-50%, 32px);
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #087f5b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot-fill {
+  background-color: #087f5b;
 }
