@@ -60,9 +60,22 @@ Medium: 11px
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: sans-serif;
   font-weight: 400;
   line-height: 1;
   /* color: #fff; */
+}
+.hero {
+  max-width: 130rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  background-color: aqua;
+}
+.hero-img {
+  width: 100%;
 }
