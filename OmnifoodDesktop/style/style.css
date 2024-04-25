@@ -66,7 +66,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1;
   /* color: #fff; */
@@ -144,4 +144,40 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.deliverd-meals {
+  display: flex;
+  margin-top: 8rem;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.deliverd-img {
+  display: flex;
+
+
+}
+
+.deliverd-text {
+  margin-left: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.deliverd-img img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+
+.deliverd-img img:last-child {
+  margin-right: 0;
+}
+
+.deliverd-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
