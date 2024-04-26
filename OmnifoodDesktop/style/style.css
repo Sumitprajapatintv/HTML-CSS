@@ -181,3 +181,14 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5e3d2;
+}
+
+.logo {
+  height: 2.4rem;
+}
